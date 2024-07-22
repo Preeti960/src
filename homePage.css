@@ -1,0 +1,385 @@
+ *{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+  }
+.nav-wrapper{
+    background-color: white;
+    height: 100px;
+    position: fixed;  
+}
+.navbar ul a{
+    color: #949494;
+    font-size: 14px;
+    line-height: 14px;
+}
+#nav-mobile{
+    margin: 5px;
+}
+.sub-nav{
+    height: 50px;
+    padding: 9px;  
+    margin-bottom: 12px;  
+}
+.uppernav{
+    margin: 0px 140px 0px 140px;
+}
+.winni-logo{
+    width: 177px;
+   
+}
+.nav-center{
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.carousel.carousel-slider {
+    height: 400px;
+}
+.carousel .carousel-item {
+    width: 100%;
+    height: 100%;
+}
+.carousel .indicators .indicator-item {
+    background-color: gray;
+}
+.carousel .indicators .indicator-item.active {
+    background-color: black;
+}
+.carousel .prev, .carousel .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    padding: 10px;
+}
+.carousel .prev {
+    left: 10px;
+    background-color: white;
+    color: #141414;
+    border-radius: 50%;
+}
+.carousel .next {
+    right: 10px;
+    background-color: white;
+    color: #141414;
+    border-radius: 50%;
+}
+
+.swiper{
+    padding-top: 1px;
+    padding-bottom: 10px;
+    
+}
+.adobewidth{
+    width: 12.5% !important;
+    
+} 
+.container-fluid{
+    
+    margin: 0px 150px 0px 150px;
+}
+
+
+@media (max-width: 992px) {
+    .adobewidth {
+        width: 25% !important; 
+    } 
+}
+
+@media (max-width: 600px) {
+    .adobewidth {
+        width: 50% !important; /
+    }  
+    .cakeeventcont{ 
+        font-size: 17px;
+        font-weight: 200;  
+    }
+}
+.imageradius{
+    border-radius: 10px;
+}
+.wrapped-f1{
+    text-align: center;
+    font-weight: 600;
+    color: #333333;
+    font-size: 20px;
+    margin-top: 9px;
+}
+.containerOne{
+    display: flex;
+    gap: 20px;
+}
+.leftOne,.centerOne,.rightOne{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+.must-text{
+    text-align: center;
+font-weight: 700;
+font-size: 36px;
+margin-bottom: 20px;
+color: #333333;
+}
+.caketitle{
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    color: #4d4d4d;
+    margin-top:40px ;
+    margin-bottom: 6px; 
+}
+.cakeeventcont{
+    color:#4d4d4d;
+    font-size: 27px;
+    font-weight: 500;
+    text-align: center;
+}
+.cakeeventbtn{
+    color: #22181C;
+    background-color:#e2e2e2;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    width: 100px;
+    padding: 7px;
+    transform: translate(66px, 0px);
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;  
+}
+.cardcontent{
+    font-size: 15px;
+    text-align: center;
+    padding: 12px 0px 10px 0px ;
+}
+.cakeitemone{
+    padding: 0px 9px 0px 9px;
+    
+}
+.cakeit{
+    border: 1px solid #e8e8e8;
+    border-radius: 14px;
+    margin: 4px;
+}
+.bestsellertag{
+    font-size: 37px;
+    font-weight: 900;
+    color: #212020;
+    border-radius: 5px;   
+}
+.bestsellerrow{
+    background-color: #fff7fa;
+}
+.bestseller{
+    padding: 0px 85px 0px 85px;
+}
+.caketag{
+    background-color: #484848;
+    text-align: center;
+    font-size: 27px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #dfdde0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.bestsellerheader{
+    display: flex;
+}
+.flowertag{
+    background-color: white;
+    text-align: center;
+    font-size: 27px;
+    border: 1px solid #dfdde0;
+    font-weight: 600;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+}
+.bestsellerbtn{
+    background-color:#ffb3ce;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px; 
+}
+.bestsellerhr{
+    margin-top:55px;
+    border: 1px solid #dfdde0;
+}
+.bestsellernext{
+    position: absolute;
+    right: 200px;
+    width: 90px;
+    transform: translate(-30px, -200px);
+}
+
+
+
+
+
+
+
+  
+#cCarousel {
+    position: relative;
+}
+
+#cCarousel #prev {
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    color: white; 
+    left: -35px;
+}
+#cCarousel #next {
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    color: white; 
+    right: -30px;
+}
+#carousel-vp {
+    width: auto;
+    height: 380px;
+    display: flex;
+    
+    position: relative;
+    overflow: hidden;
+  
+}
+@media only screen and (min-width: 1901px) and (max-width: 2000px) {
+    .container-fluid{
+        margin: 0px 200px 0px 200px;
+    }
+}
+@media only screen and (min-width: 2001px) and (max-width: 2100px) {
+    .container-fluid{
+        margin: 0px 250px 0px 250px;
+    }
+}
+@media only screen and (min-width: 2101px) and (max-width: 2200px) {
+    .container-fluid{
+        margin: 0px 300px 0px 300px;
+    }
+}
+@media only screen and (min-width: 2201px) and (max-width: 2300px) {
+    .container-fluid{
+        margin: 0px 350px 0px 350px;
+    }
+}
+@media only screen and (min-width: 2301px) and (max-width: 2400px) {
+    .container-fluid{
+        margin: 0px 400px 0px 400px;
+    }
+}
+@media only screen and (min-width: 2401px) and (max-width: 2500px) {
+    .container-fluid{
+        margin: 0px 450px 0px 450px;
+    }
+}
+@media only screen and (min-width: 2501px) and (max-width: 2600px) {
+    .container-fluid{
+        margin: 0px 500px 0px 500px;
+    }
+}
+@media (max-width: 770px) {
+    #carousel-vp {
+      width: 510px;
+    }
+}
+@media (max-width: 510px) {
+    #carousel-vp {
+      width: 250px;
+    }
+}
+#cCarousel-inner{
+    position: relative;
+}
+#cCarousel #cCarousel-inner {
+    display: flex;
+    flex: 0 0 calc(25% -20px);
+    position: absolute;
+    transition: 0.3s ease-in-out;
+    gap: 15px;
+    left: 0px;
+}
+.cCarousel-item {
+    width: 321px;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex: 0 0 calc(25% -20px);
+    flex-direction: column;
+    margin: 0px 7px;
+}
+.cCarousel-item .infos {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    color: black;
+}
+.cCarousel-item .infos button {
+    background: #222;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.arrow-img{
+    width: 84px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {
+    #cCarousel #prev{
+        position: absolute!important;
+        width: 89px!important;
+        left: 30px!important;
+    }
+    .cCarousel-item{
+        overflow: hidden;
+    }
+    #cCarousel #next{
+        position: absolute!important;
+         top: -221px!important;
+        width: 89px!important;
+        right: -31px!important;
+    }
+}
+@media screen and (min-width: 1367px) and (max-width: 1600px){
+    #cCarousel #prev{
+        position: absolute;
+        top: 163px!important;
+        width: 84px!important;
+        left: 27px!important;
+    }
+    #cCarousel #next{
+        position: absolute!important;
+        top: -223px!important;
+        width: 89px!important;
+        right: -31px!important;
+    }
+    .cCarousel-item{
+        overflow: hidden;
+    }
+ }
+.cak{
+    display: none;
+    position: absolute;
+}
+.flo{   
+    display: block; 
+}
+ 
+
